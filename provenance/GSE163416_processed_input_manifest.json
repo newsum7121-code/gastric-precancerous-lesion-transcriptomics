@@ -1,0 +1,32 @@
+{
+  "manifest_version": 1,
+  "source": "NCBI GEO GSE163416 supplementary processed-count files",
+  "accession_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163416",
+  "downloaded_at": "2026-10-09",
+  "status": "verified_local_processed_supplementary_inputs_not_raw_reads",
+  "sha256_scope": "SHA-256 calculated from the local downloaded compressed bytes; remote checksum comparison was not performed.",
+  "files": [
+    {
+      "filename": "GSE163416_N-CAG+IM.all.mRNA.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163416/suppl/GSE163416_N-CAG+IM.all.mRNA.txt.gz",
+      "bytes": 4168158,
+      "sha256": "b37b75de37538d79367016b18a9d9c26550f6444ea1b473bb48f142fbdcc2206",
+      "gzip_readable": true
+    },
+    {
+      "filename": "GSE163416_N-Dys.all.mRNA.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163416/suppl/GSE163416_N-Dys.all.mRNA.txt.gz",
+      "bytes": 4173927,
+      "sha256": "8cb9661b4e0d46eb1f6b9d8bff610c709740272bcda0c7e0e58a126baf998ff1",
+      "gzip_readable": true
+    },
+    {
+      "filename": "GSE163416_N-GC.all.mRNA.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163416/suppl/GSE163416_N-GC.all.mRNA.txt.gz",
+      "bytes": 4266304,
+      "sha256": "23dd9b44e5318697b0235e9b30636a1184fc1c3e40513bed31fc67579a66bdcd",
+      "gzip_readable": true
+    }
+  ],
+  "interpretation": "These three supplementary files are the processed inputs to the current GSE163416 gene-level edgeR refit. They do not reproduce the unavailable historical transcript-level 180-candidate selection or its discovery-rho generator."
+}
