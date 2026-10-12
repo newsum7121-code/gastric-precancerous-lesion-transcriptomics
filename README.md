@@ -56,7 +56,7 @@ The recorded local reruns matched manuscript Additional files 9, 23, and 12, res
 
 ## Availability and reuse
 
-This snapshot is public for inspection. **No software licence is included**, so no general permission to reuse, modify, or redistribute the code is granted by the authors in this release. GitHub's terms permit viewing and forking public repositories; that is not a substitute for a software licence. The licence status must be resolved before describing the code as freely reusable.
+The three original R analysis scripts in `scripts/` are released under the OSI-approved MIT License (`scripts/LICENSE`). This licence does not cover the aggregate result tables in `results/`, third-party GEO source data, or other third-party materials; their source-specific terms remain applicable. The public snapshot excludes raw sequencing files, cell-level matrices, donor/sample-keyed records, and patient-level clinical data.
 
-No persistent archive DOI is assigned in this snapshot. Cite the manuscript and repository version/commit when available; a permanent identifier should be added if a corresponding archive is created.
+A separate, software-only archive with a persistent identifier is being prepared. Until its DOI is assigned, cite this repository and the exact Git commit used. The archive will contain the three scripts, environment record, and source-provenance manifest only; it will not redistribute the GEO input matrices or the separately hosted aggregate result tables.
 
